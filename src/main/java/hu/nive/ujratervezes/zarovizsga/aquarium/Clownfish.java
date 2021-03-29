@@ -7,7 +7,13 @@ public class Clownfish extends AbstractFish {
     }
 
     @Override
+    public boolean hasMemoryLoss() {
+        return false;
+    }
+
+    @Override
     public void feed() {
+        weight++;
     }
 
 }

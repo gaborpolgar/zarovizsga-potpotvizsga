@@ -5,4 +5,7 @@ public interface Fish {
     String status();
 
     void feed();
+
+    int getWeight();
+
 }
